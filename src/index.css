@@ -11,3 +11,84 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+body {
+  margin: 0;
+}
+
+.head {
+  height: auto;
+  background-color: #5F9EA0;
+  color: whitesmoke;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+  font-size: 60px;
+  font-family: georgia, sans-serif;
+  justify-content: center;
+  align-items: center;
+}
+
+.info {
+  font-size: 20px;
+  text-align: center;
+  overflow-wrap: break-word;
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+
+.infoLeft {
+  font-size: 20px;
+  font-family: georgia, sans-serif;
+  height: 165vh;
+  width: 20%;
+  color: whitesmoke;
+  background: #5F9EA0;
+  text-align: center;
+  overflow-wrap: break-word;
+  float: left;
+}
+
+.infoRight {
+  font-size: 30px;
+  font-family: georgia, sans-serif;
+  height: 165vh;
+  width: 20%;
+  color: whitesmoke;
+  background: #5F9EA0;
+  text-align: center;
+  overflow-wrap: break-word;
+  float: right;
+
+}
+.linkedIn {
+  top: 0px;
+  left: 0px;
+  max-width:25%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.infoCenter {
+  max-width:60%;
+  font-size: 25px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  align-items: center;
+  text-align: center;
+  text-align: center;
+}
+
+.textCenter {
+  max-width:60%;
+  font-size: 25px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 20%;
+  align-items: center;
+  text-align: center;
+  text-align: center;
+  font-family: "Times New Roman", sans-serif;
+}
