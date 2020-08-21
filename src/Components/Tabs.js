@@ -13,15 +13,7 @@ function Tabs() {
                 <p>
                     <Link to="/">Home</Link>
                 </p>
-               /* <p>
-                    <Link to="/projects">Projects</Link>
-                </p>
-                <p>
-                    <Link to="/about">About Me</Link>
-                </p>
 
-
-                */
                 <p>
                     <Link to="/resume">Resume</Link>
                 </p>
@@ -29,8 +21,6 @@ function Tabs() {
 
             <Switch>
                 <Route exact path="/" component={Home} />
-                //<Route exact path="/projects" component={Projects} />
-               // <Route exact path="/about" component={AboutMe} />
                 <Route exact path="/resume" component={Resume}/>
             </Switch>
         </div>
